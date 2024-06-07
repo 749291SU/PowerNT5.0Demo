@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PowerNT5.0Demo:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PowerNT5_0Demo_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PowerNT5.0Demo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PowerNT5.0Demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Maven: au.com.bytecode:opencsv:1.6" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: com.antl:xsteam:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: com.thoughtworks:xstream:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.codehaus:jackon:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.codehaus:jacksn:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.codehaus:jakson:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.coehaus:jackson:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:beanutils:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:collections:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:digester:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:jackson:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:fileupload:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:logging:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.common:validator:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.hessian:hessian:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.jdom:jdm:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.jakarta:jakarta:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.jstl:jstl:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.pbnjms:pnbjms:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.8" />
+          <element id="library" level="module" name="Maven: org.slf4j:slf4j:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: pnb:pb:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: org.standard:standard:1.0" module-name="PowerNT5.0Demo" />
+          <element id="library" level="module" name="Maven: pnbclient:pnclient:1.0" module-name="PowerNT5.0Demo" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
