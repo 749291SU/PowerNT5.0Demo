@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!--主机地址和端口号，完整的URL地址系统会自动拼接 192.168.1.118:8480|192.168.1.118:8180-->
+  <HostAddress>http://127.0.0.1:8080</HostAddress>
+  <!--应用的模式 Web:浏览器应用 Client:客户端应用 这个设置会影响Session的控制机制 -->
+  <AppMode>Web</AppMode>
+  <!--是否启用数据传输压缩 当访问者和服务器之间高速连接（如局域网）时设置为False，低速连接（如互联网）时设置为True -->
+  <Zipped>false</Zipped>
+  <!--从服务器端传回的文本的编码格式 取值包括：xml\csv-->
+  <Dataformat>CSV</Dataformat>
+  <!--从服务器端传回的二进制数据的编码格式 取值包括：GBK\UTF32\UTF7\UTF8 -->
+  <CharSet>UTF8</CharSet>
+
+  <!--应用程序代号，参照PowerStudio5的Application属性-->
+  <AppId>pnb35appframe</AppId>
+  <!--默认的语言ID，参照PowerStudio5的Application属性Language选项卡 en:英语 sc:简体中文 tc:繁体中文  -->
+  <DefaultLangId>en</DefaultLangId>
+  <!--默认的数据库连接代号（事务对象），参照PowerStudio5的Application属性transaction选项卡对应Trans Name-->
+  <DefaultTransName>sqlca</DefaultTransName>
+  <!--适配器通信方式（HTTPWS|HTTPJS|HTTPHS）-->
+  <ProtocolAdapter>HTTPHS</ProtocolAdapter>
+
+  <!--输出调试信息 -->
+  <OutputDebug>true</OutputDebug>
+  <!--输出跟踪信息 -->
+  <OutputTrace>true</OutputTrace>
+  <!--输出警告信息-->
+  <OutputWarning>true</OutputWarning>
+</root>
